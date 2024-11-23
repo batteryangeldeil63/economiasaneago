@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+body {
+  font-family: Ubuntu;
+}
+
+header {
+  padding: 8px 24px;
+  background-color: #0055a4; /* Azul inspirado no logo Saneago */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header img {
+  width: 180px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  font-size: 36px;
+}
+
+header ul li + li {
+  margin-left: 24px;
+}
+header a {
+  color: #ebebeb;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+header a:hover {
+  color: #d40e0efa;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero h1 {
+  color: #ebebeb;
+  font-size: 36px;
+}
+.hero p {
+  font-size: 20px;
+  margin: 16px 0;
+}
+.hero button {
+  background-color: #007acc;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration-color: #ebebeb;
+  font-family: Ubuntu;
+}
+.hero button:hover {
+  background-color: #0055a4;
+}
+.hero button {
+  background-color: #007acc; /* Cor de fundo do botão */
+  color: #ebebeb; /* Cor do texto */
+  font-family: "Ubuntu", sans-serif; /* Fonte personalizada */
+  font-size: 18px; /* Tamanho do texto */
+  padding: 12px 24px; /* Espaçamento interno */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Ponteiro ao passar o mouse */
+  transition: background-color 0.3s, transform 0.2s; /* Transições suaves */
+}
+.hero button:hover {
+  background-color: #0055a4; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Aumenta levemente ao passar o mouse */
+}
+.hero p {
+  color: #ebebeb;
+}
+.dots {
+  display: flex;
+  margin-top: 24px;
+}
+
+.dots span {
+  display: block;
+  background-color: #ebebeb;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dots span + span {
+  margin-left: 8px;
+}
+
+.dots .active {
+  background-color: #f1c232;
+}
+.gallery {
+  max-width: 1200px;
+  margin: 64px auto 0;
+  padding: 0 24px;
+  color: #ebebeb;
+}
+.gallery h2 {
+  margin-bottom: 32px;
+  padding-left: 16px;
+  border-left: 4px solid #007acc;
+  font-size: 40px;
+}
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.gallery-row div {
+  flex: 1 1 250px;
+}
+
+.gallery-row img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  border: 2px solid #007acc;
+}
+
+.gallery p {
+  font-weight: bold;
+  font-size: 36px;
+}
+.body {
+  background-color: #1c1c1c;
+}
+
+.history {
+  padding: 92px 24px 0;
+  margin: 64px 0 0;
+  background-color: #111111;
+  color: #ebebeb;
+  border-top: 4px solid #007acc;
+  font-size: 24px;
+}
+
+.history .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  border-bottom: 2px solid #007acc;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.history .container .col {
+  flex: 1 1 350px;
+}
+.history .container .col img {
+  width: 100%;
+  display: block;
+}
+.history a {
+  color: #007acc;
+  transition: color 0.3s;
+}
+.history h2 {
+  margin-bottom: 32px;
+  padding-left: 8px;
+  border-left: 4px solid #007acc;
+}
+
+.history p {
+  line-height: 1.5;
+}
+
+.history p + p {
+  margin-top: 24px;
+}
+
+.history a:hover {
+  color: #ebebeb;
+}
+footer p {
+  color: #ebebeb;
+  padding: 64px 24px;
+  background-color: #0055a4;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.btn {
+  background-color: #007acc; /* Cor de fundo do botão */
+  color: #ffffff; /* Cor do texto */
+  font-size: 16px; /* Tamanho da fonte */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Mostra o ponteiro ao passar o mouse */
+}
+
+.btn a {
+  text-decoration: none; /* Remove sublinhado */
+  color: inherit; /* Herda a cor do botão */
+  display: block; /* Garante clique em toda a área */
+}
