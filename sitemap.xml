@@ -1,51 +1,45 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-<!--  Página inicial  -->
-<url>
-<loc>https://economiasaneago.vercel.app/</loc>
-<lastmod>2024-11-23</lastmod>
-<changefreq>weekly</changefreq>
-<priority>1.0</priority>
-</url>
-<!--  Dicas  -->
-<url>
-<loc>https://economiasaneago.vercel.app/dicas</loc>
-<lastmod>2024-11-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<!--  Sobre a Saneago  -->
-<url>
-<loc>https://economiasaneago.vercel.app/sobre</loc>
-<lastmod>2024-11-23</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.7</priority>
-</url>
-<!--  Contato  -->
-<url>
-<loc>https://economiasaneago.vercel.app/contato</loc>
-<lastmod>2024-11-23</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.6</priority>
-</url>
-<!--  Galeria  -->
-<url>
-<loc>https://economiasaneago.vercel.app/galeria/reaproveitamento</loc>
-<lastmod>2024-11-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://economiasaneago.vercel.app/galeria/ducha</loc>
-<lastmod>2024-11-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://economiasaneago.vercel.app/galeria/vazamentos</loc>
-<lastmod>2024-11-23</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.6</priority>
-</url>
+  <url>
+    <loc>https://economiasaneago.vercel.app/</loc>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://economiasaneago.vercel.app/dicas</loc>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://economiasaneago.vercel.app/sobre</loc>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://economiasaneago.vercel.app/contato</loc>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://economiasaneago.vercel.app/galeria/reaproveitamento</loc>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://economiasaneago.vercel.app/galeria/ducha</loc>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://economiasaneago.vercel.app/galeria/vazamentos</loc>
+    <lastmod>2024-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
