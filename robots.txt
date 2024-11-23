@@ -1,0 +1,12 @@
+# Bloqueando o acesso a áreas sensíveis
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+
+# Permitindo o rastreamento de todo o site
+User-agent: *
+Allow: /
+
+# Especificando o sitemap do site
+Sitemap: https://economiasaneago.vercel.app/sitemap.xml
